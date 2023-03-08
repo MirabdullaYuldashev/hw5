@@ -1,0 +1,33 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(37, 37, 37);
+}
+
+.wrapper > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.usd {
+    margin-top: 50px;
+}
+
+input {
+    padding: 10px 20px;
+}
+
+label {
+    font-size: 30px;
+    color: white;
+}
+
+.sum {
+    margin-top: 50px;
+}
